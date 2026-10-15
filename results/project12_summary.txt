@@ -1,0 +1,182 @@
+
+marker reference check: all markers match the 3D7 reference
+== marker prevalence (key markers, plus any marker with a mutant or mixed call) ==
+   gene marker  n_called  wild_type  mixed  mutant  any_mutant_pct  ci_low  ci_high  median_depth
+kelch13  R561H         2          2      0       0             0.0     0.0     65.8           3.5
+kelch13  C580Y         8          8      0       0             0.0     0.0     32.4          45.5
+kelch13  A675V         6          6      0       0             0.0     0.0     39.0          27.0
+    crt   M74I         7          0      0       7           100.0    64.6    100.0          24.5
+    crt   N75E         6          0      0       6           100.0    61.0    100.0          18.0
+    crt   K76T         5          0      0       5           100.0    56.6    100.0          13.5
+   mdr1   N86Y         7          4      0       3            42.9    15.8     75.0          35.0
+   mdr1  Y184F         7          1      0       6            85.7    48.7     97.4          34.5
+   dhfr   N51I         8          0      0       8           100.0    67.6    100.0          53.0
+   dhfr   C59R         3          0      0       3           100.0    43.8    100.0           2.5
+   dhfr  S108N         7          0      0       7           100.0    64.6    100.0          45.0
+   dhfr  I164L         8          8      0       0             0.0     0.0     32.4          49.5
+
+median codon depth per sample: {'ERR15620824': 36.5, 'ERR15620828': 5.5, 'ERR15620862': 36.0, 'ERR15620874': 57.5, 'ERR15620886': 44.5, 'ERR15630126': 56.0, 'ERR15630236': 9.0, 'ERR15630284': 70.0}
+
+haplotypes at the crt codons 72-76 (3D7 = CVMNK, CVIET = resistant at codons 72-76):
+     sample gene  reads  top_haplotype_share    top_haplotypes
+ERR15620824  crt      8                 1.00           CVIET:8
+ERR15620828  crt      0                  NaN                  
+ERR15620862  crt      6                 1.00           CVIET:6
+ERR15620874  crt     10                 1.00          CVIET:10
+ERR15620886  crt     15                 1.00          CVIET:15
+ERR15630126  crt     16                 1.00          CVIET:16
+ERR15630236  crt      6                 1.00           CVIET:6
+ERR15630284  crt     33                 0.97 CVIET:32; CVMNK:1
+
+key-marker calls per sample (wild-type / mixed / mutant / no_call):
+marker           C580Y      R561H      A675V     K76T       N86Y      Y184F    N51I     C59R    S108N      I164L
+sample                                                                                                          
+ERR15620824  wild-type    no_call  wild-type   mutant  wild-type     mutant  mutant  no_call   mutant  wild-type
+ERR15620828  wild-type    no_call    no_call  no_call  wild-type  wild-type  mutant  no_call  no_call  wild-type
+ERR15620862  wild-type    no_call  wild-type  no_call     mutant     mutant  mutant  no_call   mutant  wild-type
+ERR15620874  wild-type    no_call  wild-type   mutant  wild-type     mutant  mutant  no_call   mutant  wild-type
+ERR15620886  wild-type    no_call    no_call   mutant     mutant     mutant  mutant  no_call   mutant  wild-type
+ERR15630126  wild-type  wild-type  wild-type   mutant     mutant     mutant  mutant   mutant   mutant  wild-type
+ERR15630236  wild-type    no_call  wild-type  no_call    no_call    no_call  mutant   mutant   mutant  wild-type
+ERR15630284  wild-type  wild-type  wild-type   mutant  wild-type     mutant  mutant   mutant   mutant  wild-type
+
+key-marker mutant or mixed calls:
+     sample gene marker  depth  n_mut  mut_frac   call
+ERR15620824  crt   K76T     15     15     1.000 mutant
+ERR15620824 mdr1  Y184F     28     28     1.000 mutant
+ERR15620824 dhfr   N51I     56     56     1.000 mutant
+ERR15620824 dhfr  S108N     29     29     1.000 mutant
+ERR15620828 dhfr   N51I     54     54     1.000 mutant
+ERR15620862 mdr1   N86Y     55     55     1.000 mutant
+ERR15620862 mdr1  Y184F     55     55     1.000 mutant
+ERR15620862 dhfr   N51I     65     65     1.000 mutant
+ERR15620862 dhfr  S108N     41     41     1.000 mutant
+ERR15620874  crt   K76T     12     12     1.000 mutant
+ERR15620874 mdr1  Y184F     73     73     1.000 mutant
+ERR15620874 dhfr   N51I     52     52     1.000 mutant
+ERR15620874 dhfr  S108N     49     49     1.000 mutant
+ERR15620886  crt   K76T     18     18     1.000 mutant
+ERR15620886 mdr1   N86Y     60     60     1.000 mutant
+ERR15620886 mdr1  Y184F     59     59     1.000 mutant
+ERR15620886 dhfr   N51I     44     44     1.000 mutant
+ERR15620886 dhfr  S108N     34     34     1.000 mutant
+ERR15630126  crt   K76T     20     20     1.000 mutant
+ERR15630126 mdr1   N86Y     31     30     0.968 mutant
+ERR15630126 mdr1  Y184F     32     32     1.000 mutant
+ERR15630126 dhfr   N51I     48     48     1.000 mutant
+ERR15630126 dhfr   C59R     49     49     1.000 mutant
+ERR15630126 dhfr  S108N     52     52     1.000 mutant
+ERR15630236 dhfr   N51I     82     82     1.000 mutant
+ERR15630236 dhfr   C59R     66     66     1.000 mutant
+ERR15630236 dhfr  S108N     76     76     1.000 mutant
+ERR15630284  crt   K76T     42     39     0.929 mutant
+ERR15630284 mdr1  Y184F     33     33     1.000 mutant
+ERR15630284 dhfr   N51I     49     49     1.000 mutant
+ERR15630284 dhfr   C59R     48     48     1.000 mutant
+ERR15630284 dhfr  S108N     54     54     1.000 mutant
+== QC ==
+     sample  primary_reads  mapped_pct  properly_paired_pct  dup_pct  median_codon_depth
+ERR15620824       10000000       96.22                87.16     1.03                36.5
+ERR15620828       10000000       92.97                80.05     1.09                 5.5
+ERR15620862       10000000       83.61                77.68     0.77                36.0
+ERR15620874       10000000       93.60                87.28     0.73                57.5
+ERR15620886       10000000       91.54                84.79     0.65                44.5
+ERR15630126        9844334       81.13                75.97    16.42                56.0
+ERR15630236       10000000       53.77                49.52     5.69                 9.0
+ERR15630284       10000000       94.65                89.71     7.34                70.0
+
+WARNING: samples with median codon depth below 20: ['ERR15620828', 'ERR15630236']
+== coverage diagnostics ==
+median read length in the loci BAMs: {'ERR15620824': 100, 'ERR15620828': 100, 'ERR15620862': 100, 'ERR15620874': 100, 'ERR15620886': 100, 'ERR15630126': 151, 'ERR15630236': 151, 'ERR15630284': 151}
+
+reads overlapping the codon, before any filter:
+codon        crt:75  crt:76  dhfr:108  dhfr:51  dhfr:59  kelch13:561  kelch13:580
+sample                                                                           
+ERR15620824      30      37        66       69       61          102          107
+ERR15620828      20      25        72       66       62           78           74
+ERR15620862      24      30        71       75       76           85           95
+ERR15620874      24      34        68       60       76           96          102
+ERR15620886      34      39        73       51       50           85           80
+ERR15630126      27      33        74       68       76           89          100
+ERR15630236       8       9        91      108       93           13           14
+ERR15630284      51      55        71       61       59           93           96
+
+reads usable at the codon (after duplicate, MAPQ, alignment and base-quality filters):
+codon        read_length  crt:75  crt:76  dhfr:108  dhfr:51  dhfr:59  kelch13:561  kelch13:580
+sample                                                                                        
+ERR15620824          100      19      18        32       62        0            2           50
+ERR15620828          100       1       0         3       61        0            0           14
+ERR15620862          100      18       8        45       71        4            5           45
+ERR15620874          100      18      12        52       56        1            2           64
+ERR15620886          100      24      21        36       47        1            1           31
+ERR15630126          151      18      20        52       48       49           55           70
+ERR15630236          151       6       6        76       82       66            9           11
+ERR15630284          151      40      42        54       49       48           69           76
+
+sample-codon pairs with fewer than 10 usable reads, and where the reads were lost:
+     sample       codon  overlapping  duplicate  mapq_low  not_fully_aligned  base_quality_low  usable  usable_if_baseq10  median_min_baseq
+ERR15620824 kelch13:561          102          0         0                  4                96       2                 96              17.0
+ERR15620824     dhfr:59           61          1         0                  2                58       0                 58              16.0
+ERR15620828 kelch13:561           78          1         0                  5                72       0                 71              15.0
+ERR15620828      crt:75           20          0         0                  1                18       1                 19              18.0
+ERR15620828      crt:76           25          0         1                  5                19       0                 19              18.0
+ERR15620828     dhfr:59           62          2         0                  3                57       0                 57              16.0
+ERR15620828    dhfr:108           72          0         0                  3                66       3                 69              18.0
+ERR15620862 kelch13:561           85          0         0                  8                72       5                 77              17.0
+ERR15620862      crt:76           30          0         0                  6                16       8                 24              19.0
+ERR15620862     dhfr:59           76          2         0                  2                68       4                 72              17.0
+ERR15620874 kelch13:561           96          0         0                  2                92       2                 93              17.0
+ERR15620874     dhfr:59           76          0         0                  2                73       1                 74              18.0
+ERR15620886 kelch13:561           85          2         1                  3                78       1                 77              16.0
+ERR15620886     dhfr:59           50          0         0                  0                49       1                 49              16.0
+ERR15630236 kelch13:561           13          0         0                  1                 3       9                 11              23.5
+ERR15630236      crt:75            8          1         0                  0                 1       6                  7              27.0
+ERR15630236      crt:76            9          1         0                  0                 1       6                  7              26.0
+figures saved in /kaggle/working/project12/figures
+== joint calling and annotation ==
+records: 161 | ERROR_CHROMOSOME_NOT_FOUND: 0 | WARNING_REF_DOES_NOT_MATCH_GENOME: 0
+
+coding changes per gene (known markers = the markers counted above):
+         variants  known_markers
+gene                            
+crt             8              1
+dhfr            3              3
+kelch13         2              0
+mdr1            7              2
+
+known markers in the joint call (AC = samples carrying the alternate allele, AN = samples genotyped):
+gene    pos ref alt           effect     protein  AC AN filter
+ crt 403625   A   C missense_variant  p.Lys76Thr   8  8   PASS
+dhfr 748239   A   T missense_variant  p.Asn51Ile   8  8   PASS
+dhfr 748262   T   C missense_variant  p.Cys59Arg   8  8   PASS
+dhfr 748410   G   A missense_variant p.Ser108Asn   8  8   PASS
+mdr1 958145   A   T missense_variant  p.Asn86Tyr   3  8   PASS
+mdr1 958440   A   T missense_variant p.Tyr184Phe   6  7   PASS
+
+other non-synonymous changes with the highest AC (all in results/locus_variants.tsv):
+   gene     pos        ref       alt                      effect            protein  AC AN filter
+    crt  403618          A        AT          frameshift_variant          p.Met74fs   8  8   PASS
+    crt  403622         AT         A          frameshift_variant          p.Asn75fs   8  8   PASS
+    crt  404836          C         G            missense_variant        p.Gln271Glu   8  8   PASS
+    crt  404407          G         T            missense_variant        p.Ala220Ser   7  7   PASS
+    crt  405838          G         T            missense_variant        p.Arg371Ile   6  8   PASS
+kelch13 1726432          T         G            missense_variant        p.Lys189Thr   5  7   PASS
+    crt  405600          T         C            missense_variant        p.Ile356Thr   4  8   PASS
+   mdr1  959837          G         A            missense_variant        p.Asp650Asn   3  7   PASS
+   mdr1  959843          A       G,*            missense_variant        p.Asn652Asp   3  7   PASS
+    crt  406056          A         G            missense_variant        p.Asn395Asp   1  8   PASS
+   mdr1  959813          G         A            missense_variant        p.Asp642Asn   1  7   PASS
+kelch13 1726234          C         T            missense_variant        p.Arg255Lys   1  7   PASS
+   mdr1  959840 GATAATAATA G,GATAATA disruptive_inframe_deletion p.Asn659_Asn661del   1  7   PASS
+   mdr1  960702          T         A            missense_variant        p.Phe938Tyr   1  7   PASS
+IGV bundle: /kaggle/working/project12/results/igv_bundle
+29M	/kaggle/working/project12/results/igv_bundle
+first locations:
+gene	marker	location
+kelch13	P441L	Pf3D7_13_v3:1725656-1725696
+kelch13	F446I	Pf3D7_13_v3:1725641-1725681
+kelch13	G449A	Pf3D7_13_v3:1725632-1725672
+kelch13	N458Y	Pf3D7_13_v3:1725605-1725645
+kelch13	C469Y	Pf3D7_13_v3:1725572-1725612
+
+elapsed minutes: 2.9

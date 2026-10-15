@@ -1,0 +1,93 @@
+00:00:00 SnpEff version SnpEff 5.4c (build 2026-02-23 07:25), by Pablo Cingolani
+00:00:00 Command: 'ann'
+00:00:00 Reading configuration file 'snpEff.config'. Genome: 'Plasmodium_falciparum'
+00:00:00 Looking for config file: '/kaggle/working/project12/snpEff.config'
+00:00:00 Reading config file: /tmp/tools/envs/snpeff/share/snpeff-5.4.0c-0/snpEff.config
+00:00:01 done
+00:00:01 Reading database for genome version 'Plasmodium_falciparum' from file '/tmp/tools/envs/snpeff/share/snpeff-5.4.0c-0/./data/Plasmodium_falciparum/snpEffectPredictor.bin' (this might take a while)
+00:00:02 done
+00:00:02 Loading Motifs and PWMs
+00:00:02 Building interval forest
+00:00:03 done.
+00:00:03 Genome stats :
+#-----------------------------------------------
+# Genome name                : 'Plasmodium_falciparum'
+# Genome version             : 'Plasmodium_falciparum'
+# Genome ID                  : 'Plasmodium_falciparum[0]'
+# Has protein coding info    : true
+# Has Tr. Support Level info : true
+# Genes                      : 5767
+# Protein coding genes       : 5437
+#-----------------------------------------------
+# Transcripts                : 5767
+# Avg. transcripts per gene  : 1.00
+# TSL transcripts            : 0
+#-----------------------------------------------
+# Checked transcripts        : 
+#               AA sequences :   5358 ( 98.55% )
+#              DNA sequences :   5515 ( 95.63% )
+#-----------------------------------------------
+# Protein coding transcripts : 5437
+#              Length errors :     49 ( 0.90% )
+#  STOP codons in CDS errors :     24 ( 0.44% )
+#         START codon errors :     79 ( 1.45% )
+#        STOP codon warnings :     30 ( 0.55% )
+#              UTR sequences :      0 ( 0.00% )
+#               Total Errors :     79 ( 1.45% )
+# WARNING                    : No protein coding transcript has UTR
+#-----------------------------------------------
+# Cds                        : 14139
+# Exons                      : 14859
+# Exons with sequence        : 14859
+# Exons without sequence     : 0
+# Avg. exons per transcript  : 2.58
+# WARNING                    : No mitochondrion chromosome found
+#-----------------------------------------------
+# Number of chromosomes      : 14
+# Chromosomes                : Format 'chromo_name size codon_table'
+#		'14'	3291936	Standard
+#		'13'	2925236	Standard
+#		'12'	2271494	Standard
+#		'11'	2038340	Standard
+#		'10'	1687656	Standard
+#		'9'	1541735	Standard
+#		'8'	1472805	Standard
+#		'7'	1445207	Standard
+#		'6'	1418242	Standard
+#		'5'	1343557	Standard
+#		'4'	1200490	Standard
+#		'3'	1067971	Standard
+#		'2'	947102	Standard
+#		'1'	640851	Standard
+#-----------------------------------------------
+
+00:00:04 Predicting variants
+00:00:04 Loading sequences from file '/tmp/tools/envs/snpeff/share/snpeff-5.4.0c-0/./data/Plasmodium_falciparum/sequence.bin'
+00:00:04 Building sequence tree for chromosome '6'
+00:00:04 Building sequence tree for chromosome '2'
+00:00:04 Building sequence tree for chromosome '4'
+00:00:04 Building sequence tree for chromosome '1'
+00:00:04 Building sequence tree for chromosome '8'
+00:00:04 Building sequence tree for chromosome '5'
+00:00:04 Building sequence tree for chromosome '3'
+00:00:04 Building sequence tree for chromosome '7'
+00:00:04 Building sequence tree for chromosome '10'
+00:00:04 Building sequence tree for chromosome '9'
+00:00:04 Creating sequences from exon information '4'
+00:00:04 Building sequence tree for chromosome '4'
+00:00:04 Building sequence tree for genome sequences
+00:00:04 Done.
+00:00:04 Done. Loaded 926 sequences.
+00:00:05 Loading sequences for chromosome '13' from file '/tmp/tools/envs/snpeff/share/snpeff-5.4.0c-0/./data/Plasmodium_falciparum/sequence.13.bin'
+00:00:05 Building sequence tree for chromosome '13'
+00:00:05 Done. Loaded 725 sequences.
+
+WARNINGS: Some warning were detected
+Warning type	Number of warnings
+INFO_REALIGN_3_PRIME	17
+
+
+00:00:05 Creating summary file: results/loci.snpeff.html
+00:00:06 Creating genes file: results/loci.snpeff.genes.txt
+00:00:06 done.
+00:00:06 Done.

@@ -1,0 +1,33 @@
+Using GATK jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar VariantFiltration -R /kaggle/working/project12/data/ref.fa -V results/cohort.vcf.gz -O results/cohort.filtered.vcf.gz --filter-expression QD < 2.0 --filter-name QD2 --filter-expression FS > 60.0 --filter-name FS60 --filter-expression SOR > 3.0 --filter-name SOR3 --filter-expression MQ < 40.0 --filter-name MQ40
+08:16:38.691 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+08:16:38.951 INFO  VariantFiltration - ------------------------------------------------------------
+08:16:38.957 INFO  VariantFiltration - The Genome Analysis Toolkit (GATK) v4.6.2.0
+08:16:38.957 INFO  VariantFiltration - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:16:38.957 INFO  VariantFiltration - Executing as root@806d0cb5da81 on Linux v6.18.48+ amd64
+08:16:38.957 INFO  VariantFiltration - Java runtime: OpenJDK 64-Bit Server VM v17.0.18-internal+0-adhoc.rattler.src
+08:16:38.958 INFO  VariantFiltration - Start Date/Time: October 13, 2026 at 8:16:38 AM UTC
+08:16:38.958 INFO  VariantFiltration - ------------------------------------------------------------
+08:16:38.958 INFO  VariantFiltration - ------------------------------------------------------------
+08:16:38.960 INFO  VariantFiltration - HTSJDK Version: 4.2.0
+08:16:38.960 INFO  VariantFiltration - Picard Version: 3.4.0
+08:16:38.960 INFO  VariantFiltration - Built for Spark Version: 3.5.0
+08:16:38.964 INFO  VariantFiltration - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+08:16:38.965 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:16:38.965 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:16:38.965 INFO  VariantFiltration - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:16:38.966 INFO  VariantFiltration - Deflater: IntelDeflater
+08:16:38.966 INFO  VariantFiltration - Inflater: IntelInflater
+08:16:38.966 INFO  VariantFiltration - GCS max retries/reopens: 20
+08:16:38.966 INFO  VariantFiltration - Requester pays: disabled
+08:16:38.967 INFO  VariantFiltration - Initializing engine
+08:16:39.183 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/cohort.vcf.gz
+08:16:39.229 INFO  VariantFiltration - Done initializing engine
+08:16:39.344 INFO  ProgressMeter - Starting traversal
+08:16:39.345 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+08:16:39.469 INFO  ProgressMeter -             unmapped              0.0                   161          77903.2
+08:16:39.470 INFO  ProgressMeter - Traversal complete. Processed 161 total variants in 0.0 minutes.
+08:16:39.476 INFO  VariantFiltration - Shutting down engine
+[October 13, 2026 at 8:16:39 AM UTC] org.broadinstitute.hellbender.tools.walkers.filters.VariantFiltration done. Elapsed time: 0.02 minutes.
+Runtime.totalMemory()=142606336

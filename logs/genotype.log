@@ -1,0 +1,36 @@
+Using GATK jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar GenotypeGVCFs -R /kaggle/working/project12/data/ref.fa -V results/cohort.g.vcf.gz -O results/cohort.vcf.gz --sample-ploidy 1 -L data/loci.bed
+08:16:31.264 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+08:16:31.627 INFO  GenotypeGVCFs - ------------------------------------------------------------
+08:16:31.636 INFO  GenotypeGVCFs - The Genome Analysis Toolkit (GATK) v4.6.2.0
+08:16:31.637 INFO  GenotypeGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:16:31.638 INFO  GenotypeGVCFs - Executing as root@806d0cb5da81 on Linux v6.18.48+ amd64
+08:16:31.638 INFO  GenotypeGVCFs - Java runtime: OpenJDK 64-Bit Server VM v17.0.18-internal+0-adhoc.rattler.src
+08:16:31.639 INFO  GenotypeGVCFs - Start Date/Time: October 13, 2026 at 8:16:31 AM UTC
+08:16:31.640 INFO  GenotypeGVCFs - ------------------------------------------------------------
+08:16:31.640 INFO  GenotypeGVCFs - ------------------------------------------------------------
+08:16:31.643 INFO  GenotypeGVCFs - HTSJDK Version: 4.2.0
+08:16:31.644 INFO  GenotypeGVCFs - Picard Version: 3.4.0
+08:16:31.644 INFO  GenotypeGVCFs - Built for Spark Version: 3.5.0
+08:16:31.659 INFO  GenotypeGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+08:16:31.662 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:16:31.665 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:16:31.669 INFO  GenotypeGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:16:31.669 INFO  GenotypeGVCFs - Deflater: IntelDeflater
+08:16:31.670 INFO  GenotypeGVCFs - Inflater: IntelInflater
+08:16:31.670 INFO  GenotypeGVCFs - GCS max retries/reopens: 20
+08:16:31.670 INFO  GenotypeGVCFs - Requester pays: disabled
+08:16:31.675 INFO  GenotypeGVCFs - Initializing engine
+08:16:32.175 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/cohort.g.vcf.gz
+08:16:32.304 INFO  FeatureManager - Using codec BEDCodec to read file file:///kaggle/working/project12/data/loci.bed
+08:16:32.319 INFO  IntervalArgumentCollection - Processing 32545 bp from intervals
+08:16:32.339 INFO  GenotypeGVCFs - Done initializing engine
+08:16:32.484 INFO  ProgressMeter - Starting traversal
+08:16:32.485 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+08:16:32.758 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated at position Pf3D7_04_v3:746011 and possibly subsequent; at least 10 samples must have called genotypes
+08:16:35.323 INFO  ProgressMeter -  Pf3D7_13_v3:1728967              0.0                 13322         281748.3
+08:16:35.323 INFO  ProgressMeter - Traversal complete. Processed 13322 total variants in 0.0 minutes.
+08:16:35.330 INFO  GenotypeGVCFs - Shutting down engine
+[October 13, 2026 at 8:16:35 AM UTC] org.broadinstitute.hellbender.tools.walkers.GenotypeGVCFs done. Elapsed time: 0.07 minutes.
+Runtime.totalMemory()=318767104

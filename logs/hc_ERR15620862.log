@@ -1,0 +1,60 @@
+Using GATK jar /kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar HaplotypeCaller -R data/ref.fa -I results/bams/ERR15620862.loci.bam -O results/gvcf/ERR15620862.g.vcf.gz -ERC GVCF --sample-ploidy 1 -L data/loci.bed
+17:23:04.663 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+17:23:04.898 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:23:04.902 INFO  HaplotypeCaller - The Genome Analysis Toolkit (GATK) v4.6.2.0
+17:23:04.903 INFO  HaplotypeCaller - For support and documentation go to https://software.broadinstitute.org/gatk/
+17:23:04.903 INFO  HaplotypeCaller - Executing as root@a2b92ec6f588 on Linux v6.18.48+ amd64
+17:23:04.903 INFO  HaplotypeCaller - Java runtime: OpenJDK 64-Bit Server VM v17.0.18-internal+0-adhoc.rattler.src
+17:23:04.903 INFO  HaplotypeCaller - Start Date/Time: October 6, 2026 at 5:23:04 PM UTC
+17:23:04.903 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:23:04.903 INFO  HaplotypeCaller - ------------------------------------------------------------
+17:23:04.905 INFO  HaplotypeCaller - HTSJDK Version: 4.2.0
+17:23:04.905 INFO  HaplotypeCaller - Picard Version: 3.4.0
+17:23:04.905 INFO  HaplotypeCaller - Built for Spark Version: 3.5.0
+17:23:04.909 INFO  HaplotypeCaller - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+17:23:04.910 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+17:23:04.910 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+17:23:04.910 INFO  HaplotypeCaller - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+17:23:04.911 INFO  HaplotypeCaller - Deflater: IntelDeflater
+17:23:04.911 INFO  HaplotypeCaller - Inflater: IntelInflater
+17:23:04.911 INFO  HaplotypeCaller - GCS max retries/reopens: 20
+17:23:04.911 INFO  HaplotypeCaller - Requester pays: disabled
+17:23:04.912 INFO  HaplotypeCaller - Initializing engine
+17:23:05.140 INFO  FeatureManager - Using codec BEDCodec to read file file:///kaggle/working/bioinformatics/bioinfo/project12/data/loci.bed
+17:23:05.165 INFO  IntervalArgumentCollection - Processing 32545 bp from intervals
+17:23:05.177 INFO  HaplotypeCaller - Done initializing engine
+17:23:05.180 INFO  HaplotypeCallerEngine - Tool is in reference confidence mode and the annotation, the following changes will be made to any specified annotations: 'StrandBiasBySample' will be enabled. 'ChromosomeCounts', 'FisherStrand', 'StrandOddsRatio' and 'QualByDepth' annotations have been disabled
+17:23:05.191 INFO  NativeLibraryLoader - Loading libgkl_utils.so from jar:file:/kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_utils.so
+17:23:05.193 INFO  NativeLibraryLoader - Loading libgkl_smithwaterman.so from jar:file:/kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_smithwaterman.so
+17:23:05.195 INFO  SmithWatermanAligner - Using AVX accelerated SmithWaterman implementation
+17:23:05.199 INFO  HaplotypeCallerEngine - Currently, physical phasing is only available for diploid samples.
+17:23:05.201 INFO  HaplotypeCallerEngine - Standard Emitting and Calling confidence set to -0.0 for reference-model confidence output
+17:23:05.201 INFO  HaplotypeCallerEngine - All sites annotated with PLs forced to true for reference-model confidence output
+17:23:05.217 INFO  NativeLibraryLoader - Loading libgkl_pairhmm_omp.so from jar:file:/kaggle/working/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_pairhmm_omp.so
+17:23:05.240 INFO  IntelPairHmm - Flush-to-zero (FTZ) is enabled when running PairHMM
+17:23:05.241 INFO  IntelPairHmm - Available threads: 4
+17:23:05.241 INFO  IntelPairHmm - Requested threads: 4
+17:23:05.241 INFO  PairHMM - Using the OpenMP multi-threaded AVX-accelerated native PairHMM implementation
+17:23:05.328 INFO  ProgressMeter - Starting traversal
+17:23:05.329 INFO  ProgressMeter -        Current Locus  Elapsed Minutes     Regions Processed   Regions/Minute
+17:23:06.235 WARN  InbreedingCoeff - InbreedingCoeff will not be calculated at position Pf3D7_04_v3:746915 and possibly subsequent; at least 10 samples must have called genotypes
+17:23:10.989 INFO  HaplotypeCaller - 206 read(s) filtered by: MappingQualityReadFilter 
+0 read(s) filtered by: MappingQualityAvailableReadFilter 
+0 read(s) filtered by: MappedReadFilter 
+0 read(s) filtered by: NotSecondaryAlignmentReadFilter 
+65 read(s) filtered by: NotDuplicateReadFilter 
+0 read(s) filtered by: PassesVendorQualityCheckReadFilter 
+0 read(s) filtered by: NonZeroReferenceLengthAlignmentReadFilter 
+0 read(s) filtered by: GoodCigarReadFilter 
+0 read(s) filtered by: WellformedReadFilter 
+271 total reads filtered out of 10116 reads processed
+17:23:10.990 INFO  ProgressMeter -  Pf3D7_13_v3:1728733              0.1                   208           2204.6
+17:23:10.990 INFO  ProgressMeter - Traversal complete. Processed 208 total regions in 0.1 minutes.
+17:23:10.997 INFO  VectorLoglessPairHMM - Time spent in setup for JNI call : 0.010561226
+17:23:10.998 INFO  PairHMM - Total compute time in PairHMM computeLogLikelihoods() : 0.28158856400000004
+17:23:10.998 INFO  SmithWatermanAligner - Total compute time in native Smith-Waterman : 0.10 sec
+17:23:10.999 INFO  HaplotypeCaller - Shutting down engine
+[October 6, 2026 at 5:23:11 PM UTC] org.broadinstitute.hellbender.tools.walkers.haplotypecaller.HaplotypeCaller done. Elapsed time: 0.11 minutes.
+Runtime.totalMemory()=335544320

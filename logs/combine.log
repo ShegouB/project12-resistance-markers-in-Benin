@@ -1,0 +1,41 @@
+Using GATK jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar
+Running:
+    java -Dsamjdk.use_async_io_read_samtools=false -Dsamjdk.use_async_io_write_samtools=true -Dsamjdk.use_async_io_write_tribble=false -Dsamjdk.compression_level=2 -jar /tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar CombineGVCFs -R /kaggle/working/project12/data/ref.fa --variant /kaggle/working/project12/results/gvcf/ERR15620824.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15620828.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15620862.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15620874.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15620886.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15630126.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15630236.g.vcf.gz --variant /kaggle/working/project12/results/gvcf/ERR15630284.g.vcf.gz -O results/cohort.g.vcf.gz
+08:16:19.354 INFO  NativeLibraryLoader - Loading libgkl_compression.so from jar:file:/tmp/tools/envs/bioinfo/share/gatk4-4.6.2.0-0/gatk-package-4.6.2.0-local.jar!/com/intel/gkl/native/libgkl_compression.so
+08:16:19.795 INFO  CombineGVCFs - ------------------------------------------------------------
+08:16:19.800 INFO  CombineGVCFs - The Genome Analysis Toolkit (GATK) v4.6.2.0
+08:16:19.800 INFO  CombineGVCFs - For support and documentation go to https://software.broadinstitute.org/gatk/
+08:16:19.800 INFO  CombineGVCFs - Executing as root@806d0cb5da81 on Linux v6.18.48+ amd64
+08:16:19.801 INFO  CombineGVCFs - Java runtime: OpenJDK 64-Bit Server VM v17.0.18-internal+0-adhoc.rattler.src
+08:16:19.801 INFO  CombineGVCFs - Start Date/Time: October 13, 2026 at 8:16:19 AM UTC
+08:16:19.801 INFO  CombineGVCFs - ------------------------------------------------------------
+08:16:19.801 INFO  CombineGVCFs - ------------------------------------------------------------
+08:16:19.803 INFO  CombineGVCFs - HTSJDK Version: 4.2.0
+08:16:19.803 INFO  CombineGVCFs - Picard Version: 3.4.0
+08:16:19.803 INFO  CombineGVCFs - Built for Spark Version: 3.5.0
+08:16:19.808 INFO  CombineGVCFs - HTSJDK Defaults.COMPRESSION_LEVEL : 2
+08:16:19.808 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_READ_FOR_SAMTOOLS : false
+08:16:19.809 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_SAMTOOLS : true
+08:16:19.809 INFO  CombineGVCFs - HTSJDK Defaults.USE_ASYNC_IO_WRITE_FOR_TRIBBLE : false
+08:16:19.809 INFO  CombineGVCFs - Deflater: IntelDeflater
+08:16:19.810 INFO  CombineGVCFs - Inflater: IntelInflater
+08:16:19.810 INFO  CombineGVCFs - GCS max retries/reopens: 20
+08:16:19.810 INFO  CombineGVCFs - Requester pays: disabled
+08:16:19.811 INFO  CombineGVCFs - Initializing engine
+08:16:20.121 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15620824.g.vcf.gz
+08:16:20.182 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15620828.g.vcf.gz
+08:16:20.196 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15620862.g.vcf.gz
+08:16:20.209 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15620874.g.vcf.gz
+08:16:20.220 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15620886.g.vcf.gz
+08:16:20.233 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15630126.g.vcf.gz
+08:16:20.245 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15630236.g.vcf.gz
+08:16:20.269 INFO  FeatureManager - Using codec VCFCodec to read file file:///kaggle/working/project12/results/gvcf/ERR15630284.g.vcf.gz
+08:16:20.469 INFO  CombineGVCFs - Done initializing engine
+08:16:20.524 INFO  ProgressMeter - Starting traversal
+08:16:20.526 INFO  ProgressMeter -        Current Locus  Elapsed Minutes    Variants Processed  Variants/Minute
+08:16:20.653 WARN  ReferenceConfidenceVariantContextMerger - Detected invalid annotations: When trying to merge variant contexts at location Pf3D7_04_v3:746011 the annotation MLEAC=[1, 0] was not a numerical value and was ignored
+08:16:24.124 INFO  ProgressMeter -  Pf3D7_13_v3:1728165              0.1                 21956         366544.2
+08:16:24.124 INFO  ProgressMeter - Traversal complete. Processed 21956 total variants in 0.1 minutes.
+08:16:24.139 INFO  CombineGVCFs - Shutting down engine
+[October 13, 2026 at 8:16:24 AM UTC] org.broadinstitute.hellbender.tools.walkers.CombineGVCFs done. Elapsed time: 0.08 minutes.
+Runtime.totalMemory()=314572800
