@@ -1,0 +1,334 @@
+[{"stream_name":"stderr","time":11.806382429,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.806519845,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.806543167,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.806548727,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":12.731910867,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":12.731967921,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":12.731974603,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":12.731979303,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.873882916,"data":"work dir: /kaggle/working/project12\n"}
+,{"stream_name":"stdout","time":15.873928465,"data":"settings: {'MIN_DEPTH': 10, 'MUTANT_FRAC': 0.8, 'MIXED_FRAC': 0.1, 'MUT_MIN_READS': 3, 'MIN_MAPQ': 20, 'MIN_BASEQ': 20}\n"}
+,{"stream_name":"stdout","time":16.073643259,"data":"archive candidates: ['/kaggle/input/datasets/borisdjagou/data-project12/project12_results.tgz']\n"}
+,{"stream_name":"stdout","time":16.073714183,"data":"using: /kaggle/input/datasets/borisdjagou/data-project12/project12_results.tgz | 6.5 MB\n"}
+,{"stream_name":"stdout","time":16.197263949,"data":"\n"}
+,{"stream_name":"stdout","time":16.197317436,"data":"run list in the archive: ['ERR15620824', 'ERR15620828', 'ERR15620862', 'ERR15620874', 'ERR15620886', 'ERR15630126', 'ERR15630236', 'ERR15630284']\n"}
+,{"stream_name":"stdout","time":16.197324636,"data":"samples with a loci BAM and a gVCF: 8 of 8\n"}
+,{"stream_name":"stdout","time":16.197329254,"data":"\n"}
+,{"stream_name":"stdout","time":16.1973333,"data":"run_accession sample_accession study_accession  collection_date library_layout  base_count\n"}
+,{"stream_name":"stdout","time":16.197337651,"data":"  ERR15620824   SAMEA120046494      PRJEB96783             2014         PAIRED  1808263200\n"}
+,{"stream_name":"stdout","time":16.197342714,"data":"  ERR15620828   SAMEA120046498      PRJEB96783             2014         PAIRED  2044605200\n"}
+,{"stream_name":"stdout","time":16.197346895,"data":"  ERR15620862   SAMEA120046532      PRJEB96783             2014         PAIRED  1105766000\n"}
+,{"stream_name":"stdout","time":16.197359583,"data":"  ERR15620874   SAMEA120046545      PRJEB96783             2014         PAIRED  1560725400\n"}
+,{"stream_name":"stdout","time":16.197363968,"data":"  ERR15620886   SAMEA120046556      PRJEB96783             2014         PAIRED  2149209600\n"}
+,{"stream_name":"stdout","time":16.197367692,"data":"  ERR15630126   SAMEA120055795      PRJEB96783             2016         PAIRED  1486494434\n"}
+,{"stream_name":"stdout","time":16.197371901,"data":"  ERR15630236   SAMEA120055905      PRJEB96783             2016         PAIRED  2350683440\n"}
+,{"stream_name":"stdout","time":16.197380459,"data":"  ERR15630284   SAMEA120055953      PRJEB96783             2016         PAIRED  2148360654\n"}
+,{"stream_name":"stdout","time":88.539004995,"data":"79_1\n"}
+,{"stream_name":"stdout","time":88.539049907,"data":"Linking bcftools-1.24-h118bc1c_4\n"}
+,{"stream_name":"stdout","time":88.539056599,"data":"Linking gatk4-4.6.2.0-py310hdfd78af_0\n"}
+,{"stream_name":"stdout","time":88.539062131,"data":"\n"}
+,{"stream_name":"stdout","time":88.539067144,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":88.539105382,"data":"\n"}
+,{"stream_name":"stdout","time":88.539113344,"data":"\n"}
+,{"stream_name":"stdout","time":88.539117935,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":88.539121968,"data":"\n"}
+,{"stream_name":"stdout","time":88.539125634,"data":"    micromamba activate /tmp/tools/envs/bioinfo\n"}
+,{"stream_name":"stdout","time":88.539129552,"data":"\n"}
+,{"stream_name":"stdout","time":88.539133097,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":88.539136839,"data":"\n"}
+,{"stream_name":"stdout","time":88.539140574,"data":"    micromamba run -p /tmp/tools/envs/bioinfo mycommand\n"}
+,{"stream_name":"stdout","time":88.53914446,"data":"\n"}
+,{"stream_name":"stdout","time":88.539148134,"data":"\n"}
+,{"stream_name":"stdout","time":118.46862787,"data":"7a8fb5f_6\n"}
+,{"stream_name":"stdout","time":118.4686817,"data":"Linking openjdk-25.0.2-h1602c4f_26\n"}
+,{"stream_name":"stdout","time":118.468687918,"data":"Linking snpeff-5.4.0c-hdfd78af_0\n"}
+,{"stream_name":"stdout","time":118.468694187,"data":"\n"}
+,{"stream_name":"stdout","time":118.468702164,"data":"Transaction finished\n"}
+,{"stream_name":"stdout","time":118.468704965,"data":"\n"}
+,{"stream_name":"stdout","time":118.468707501,"data":"\n"}
+,{"stream_name":"stdout","time":118.468710017,"data":"To activate this environment, use:\n"}
+,{"stream_name":"stdout","time":118.468712639,"data":"\n"}
+,{"stream_name":"stdout","time":118.468715341,"data":"    micromamba activate /tmp/tools/envs/snpeff\n"}
+,{"stream_name":"stdout","time":118.468717947,"data":"\n"}
+,{"stream_name":"stdout","time":118.468720433,"data":"Or to execute a single command in this environment, use:\n"}
+,{"stream_name":"stdout","time":118.468723121,"data":"\n"}
+,{"stream_name":"stdout","time":118.468725703,"data":"    micromamba run -p /tmp/tools/envs/snpeff mycommand\n"}
+,{"stream_name":"stdout","time":118.468735149,"data":"\n"}
+,{"stream_name":"stdout","time":118.468737728,"data":"\n"}
+,{"stream_name":"stdout","time":123.414771169,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 9.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":123.62149477,"data":"   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.0/4.0 MB 9.2 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":126.722590538,"data":"\n"}
+,{"stream_name":"stdout","time":126.722641074,"data":"tool versions:\n"}
+,{"stream_name":"stdout","time":129.404240685,"data":"The Genome Analysis Toolkit (GATK) v4.6.2.0\n"}
+,{"stream_name":"stdout","time":129.404292496,"data":"HTSJDK Version: 4.2.0\n"}
+,{"stream_name":"stdout","time":129.404300514,"data":"Picard Version: 3.4.0\n"}
+,{"stream_name":"stdout","time":129.404306929,"data":"samtools 1.24\n"}
+,{"stream_name":"stdout","time":129.404314009,"data":"bcftools 1.24\n"}
+,{"stream_name":"stdout","time":129.772913753,"data":"SnpEff\t5.4c\t2026-02-23\n"}
+,{"stream_name":"stdout","time":129.774066491,"data":"pysam 0.24.1\n"}
+,{"stream_name":"stdout","time":141.591039777,"data":"reference: 23.6 MB | annotation: 21.0 MB\n"}
+,{"stream_name":"stdout","time":141.591124053,"data":"['Pf3D7_01_v3\\t640851\\t13\\t80\\t81', 'Pf3D7_02_v3\\t947102\\t648888\\t80\\t81', 'Pf3D7_03_v3\\t1067971\\t1607842\\t80\\t81'] ...\n"}
+,{"stream_name":"stdout","time":141.68545507,"data":"functions defined\n"}
+,{"stream_name":"stdout","time":142.316155759,"data":"   gene       chrom strand  cds_bp  protein_aa  internal_stops  starts_M\n"}
+,{"stream_name":"stdout","time":142.31620295,"data":"kelch13 Pf3D7_13_v3      -    2181         726               0      True\n"}
+,{"stream_name":"stdout","time":142.316226651,"data":"    crt Pf3D7_07_v3      +    1275         424               0      True\n"}
+,{"stream_name":"stdout","time":142.316248104,"data":"   mdr1 Pf3D7_05_v3      +    4260        1419               0      True\n"}
+,{"stream_name":"stdout","time":142.316261211,"data":"   dhfr Pf3D7_04_v3      +    1827         608               0      True\n"}
+,{"stream_name":"stdout","time":142.31626615,"data":"\n"}
+,{"stream_name":"stdout","time":142.31627901,"data":"marker reference check: all markers match the 3D7 reference\n"}
+,{"stream_name":"stdout","time":147.810758,"data":"== marker prevalence (key markers, plus any marker with a mutant or mixed call) ==\n"}
+,{"stream_name":"stdout","time":147.829983984,"data":"   gene marker  n_called  wild_type  mixed  mutant  any_mutant_pct  ci_low  ci_high  median_depth\n"}
+,{"stream_name":"stdout","time":147.830066817,"data":"kelch13  R561H         2          2      0       0             0.0     0.0     65.8           3.5\n"}
+,{"stream_name":"stdout","time":147.830104885,"data":"kelch13  C580Y         8          8      0       0             0.0     0.0     32.4          45.5\n"}
+,{"stream_name":"stdout","time":147.830113836,"data":"kelch13  A675V         6          6      0       0             0.0     0.0     39.0          27.0\n"}
+,{"stream_name":"stdout","time":147.830119592,"data":"    crt   M74I         7          0      0       7           100.0    64.6    100.0          24.5\n"}
+,{"stream_name":"stdout","time":147.83012559,"data":"    crt   N75E         6          0      0       6           100.0    61.0    100.0          18.0\n"}
+,{"stream_name":"stdout","time":147.830131955,"data":"    crt   K76T         5          0      0       5           100.0    56.6    100.0          13.5\n"}
+,{"stream_name":"stdout","time":147.830137981,"data":"   mdr1   N86Y         7          4      0       3            42.9    15.8     75.0          35.0\n"}
+,{"stream_name":"stdout","time":147.830143161,"data":"   mdr1  Y184F         7          1      0       6            85.7    48.7     97.4          34.5\n"}
+,{"stream_name":"stdout","time":147.830148406,"data":"   dhfr   N51I         8          0      0       8           100.0    67.6    100.0          53.0\n"}
+,{"stream_name":"stdout","time":147.83015331000001,"data":"   dhfr   C59R         3          0      0       3           100.0    43.8    100.0           2.5\n"}
+,{"stream_name":"stdout","time":147.830158198,"data":"   dhfr  S108N         7          0      0       7           100.0    64.6    100.0          45.0\n"}
+,{"stream_name":"stdout","time":147.830164107,"data":"   dhfr  I164L         8          8      0       0             0.0     0.0     32.4          49.5\n"}
+,{"stream_name":"stdout","time":147.834935298,"data":"\n"}
+,{"stream_name":"stdout","time":147.834998446,"data":"median codon depth per sample: {'ERR15620824': 36.5, 'ERR15620828': 5.5, 'ERR15620862': 36.0, 'ERR15620874': 57.5, 'ERR15620886': 44.5, 'ERR15630126': 56.0, 'ERR15630236': 9.0, 'ERR15630284': 70.0}\n"}
+,{"stream_name":"stdout","time":147.851858962,"data":"\n"}
+,{"stream_name":"stdout","time":147.852254942,"data":"haplotypes at the crt codons 72-76 (3D7 = CVMNK, CVIET = resistant at codons 72-76):\n"}
+,{"stream_name":"stdout","time":147.857271109,"data":"     sample gene  reads  top_haplotype_share    top_haplotypes\n"}
+,{"stream_name":"stdout","time":147.85731284,"data":"ERR15620824  crt      8                 1.00           CVIET:8\n"}
+,{"stream_name":"stdout","time":147.857319508,"data":"ERR15620828  crt      0                  NaN                  \n"}
+,{"stream_name":"stdout","time":147.857338137,"data":"ERR15620862  crt      6                 1.00           CVIET:6\n"}
+,{"stream_name":"stdout","time":147.857343808,"data":"ERR15620874  crt     10                 1.00          CVIET:10\n"}
+,{"stream_name":"stdout","time":147.857347751,"data":"ERR15620886  crt     15                 1.00          CVIET:15\n"}
+,{"stream_name":"stdout","time":147.85735173,"data":"ERR15630126  crt     16                 1.00          CVIET:16\n"}
+,{"stream_name":"stdout","time":147.857355479,"data":"ERR15630236  crt      6                 1.00           CVIET:6\n"}
+,{"stream_name":"stdout","time":147.857359732,"data":"ERR15630284  crt     33                 0.97 CVIET:32; CVMNK:1\n"}
+,{"stream_name":"stdout","time":147.8608707,"data":"\n"}
+,{"stream_name":"stdout","time":147.860915578,"data":"key-marker calls per sample (wild-type / mixed / mutant / no_call):\n"}
+,{"stream_name":"stdout","time":147.869512647,"data":"marker           C580Y      R561H      A675V     K76T       N86Y      Y184F    N51I     C59R    S108N      I164L\n"}
+,{"stream_name":"stdout","time":147.869548945,"data":"sample                                                                                                          \n"}
+,{"stream_name":"stdout","time":147.869555348,"data":"ERR15620824  wild-type    no_call  wild-type   mutant  wild-type     mutant  mutant  no_call   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.869560994,"data":"ERR15620828  wild-type    no_call    no_call  no_call  wild-type  wild-type  mutant  no_call  no_call  wild-type\n"}
+,{"stream_name":"stdout","time":147.86956973,"data":"ERR15620862  wild-type    no_call  wild-type  no_call     mutant     mutant  mutant  no_call   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.869574916,"data":"ERR15620874  wild-type    no_call  wild-type   mutant  wild-type     mutant  mutant  no_call   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.869579831,"data":"ERR15620886  wild-type    no_call    no_call   mutant     mutant     mutant  mutant  no_call   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.869583927,"data":"ERR15630126  wild-type  wild-type  wild-type   mutant     mutant     mutant  mutant   mutant   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.869588524,"data":"ERR15630236  wild-type    no_call  wild-type  no_call    no_call    no_call  mutant   mutant   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.86959376,"data":"ERR15630284  wild-type  wild-type  wild-type   mutant  wild-type     mutant  mutant   mutant   mutant  wild-type\n"}
+,{"stream_name":"stdout","time":147.874304193,"data":"\n"}
+,{"stream_name":"stdout","time":147.87449305,"data":"key-marker mutant or mixed calls:\n"}
+,{"stream_name":"stdout","time":147.885437716,"data":"     sample gene marker  depth  n_mut  mut_frac   call\n"}
+,{"stream_name":"stdout","time":147.88550809,"data":"ERR15620824  crt   K76T     15     15     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885515759,"data":"ERR15620824 mdr1  Y184F     28     28     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885520223,"data":"ERR15620824 dhfr   N51I     56     56     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885525561,"data":"ERR15620824 dhfr  S108N     29     29     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885531457,"data":"ERR15620828 dhfr   N51I     54     54     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885535408,"data":"ERR15620862 mdr1   N86Y     55     55     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885539258,"data":"ERR15620862 mdr1  Y184F     55     55     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885558843,"data":"ERR15620862 dhfr   N51I     65     65     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885563235,"data":"ERR15620862 dhfr  S108N     41     41     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885567522,"data":"ERR15620874  crt   K76T     12     12     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.88557202,"data":"ERR15620874 mdr1  Y184F     73     73     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.88557687,"data":"ERR15620874 dhfr   N51I     52     52     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885581078,"data":"ERR15620874 dhfr  S108N     49     49     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885585295,"data":"ERR15620886  crt   K76T     18     18     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885589376,"data":"ERR15620886 mdr1   N86Y     60     60     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885593417,"data":"ERR15620886 mdr1  Y184F     59     59     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885597655,"data":"ERR15620886 dhfr   N51I     44     44     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885601496,"data":"ERR15620886 dhfr  S108N     34     34     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.88560573,"data":"ERR15630126  crt   K76T     20     20     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885609771,"data":"ERR15630126 mdr1   N86Y     31     30     0.968 mutant\n"}
+,{"stream_name":"stdout","time":147.885613496,"data":"ERR15630126 mdr1  Y184F     32     32     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885617254,"data":"ERR15630126 dhfr   N51I     48     48     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885621113,"data":"ERR15630126 dhfr   C59R     49     49     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885624878,"data":"ERR15630126 dhfr  S108N     52     52     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885628821,"data":"ERR15630236 dhfr   N51I     82     82     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885633051,"data":"ERR15630236 dhfr   C59R     66     66     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885638027,"data":"ERR15630236 dhfr  S108N     76     76     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885641795,"data":"ERR15630284  crt   K76T     42     39     0.929 mutant\n"}
+,{"stream_name":"stdout","time":147.8856461,"data":"ERR15630284 mdr1  Y184F     33     33     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885649994,"data":"ERR15630284 dhfr   N51I     49     49     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885654142,"data":"ERR15630284 dhfr   C59R     48     48     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.885658043,"data":"ERR15630284 dhfr  S108N     54     54     1.000 mutant\n"}
+,{"stream_name":"stdout","time":147.952393302,"data":"== QC ==\n"}
+,{"stream_name":"stdout","time":147.954769682,"data":"     sample  primary_reads  mapped_pct  properly_paired_pct  dup_pct  median_codon_depth\n"}
+,{"stream_name":"stdout","time":147.954805196,"data":"ERR15620824       10000000       96.22                87.16     1.03                36.5\n"}
+,{"stream_name":"stdout","time":147.95482742,"data":"ERR15620828       10000000       92.97                80.05     1.09                 5.5\n"}
+,{"stream_name":"stdout","time":147.954832453,"data":"ERR15620862       10000000       83.61                77.68     0.77                36.0\n"}
+,{"stream_name":"stdout","time":147.954835618,"data":"ERR15620874       10000000       93.60                87.28     0.73                57.5\n"}
+,{"stream_name":"stdout","time":147.954838679,"data":"ERR15620886       10000000       91.54                84.79     0.65                44.5\n"}
+,{"stream_name":"stdout","time":147.95538681,"data":"ERR15630126        9844334       81.13                75.97    16.42                56.0\n"}
+,{"stream_name":"stdout","time":147.955415951,"data":"ERR15630236       10000000       53.77                49.52     5.69                 9.0\n"}
+,{"stream_name":"stdout","time":147.955419311,"data":"ERR15630284       10000000       94.65                89.71     7.34                70.0\n"}
+,{"stream_name":"stdout","time":147.959442057,"data":"\n"}
+,{"stream_name":"stdout","time":147.959472299,"data":"WARNING: samples with median codon depth below 20: ['ERR15620828', 'ERR15630236']\n"}
+,{"stream_name":"stdout","time":148.246185077,"data":"== coverage diagnostics ==\n"}
+,{"stream_name":"stdout","time":148.246234571,"data":"median read length in the loci BAMs: {'ERR15620824': 100, 'ERR15620828': 100, 'ERR15620862': 100, 'ERR15620874': 100, 'ERR15620886': 100, 'ERR15630126': 151, 'ERR15630236': 151, 'ERR15630284': 151}\n"}
+,{"stream_name":"stdout","time":148.246952681,"data":"\n"}
+,{"stream_name":"stdout","time":148.246971195,"data":"reads overlapping the codon, before any filter:\n"}
+,{"stream_name":"stdout","time":148.252854615,"data":"codon        crt:75  crt:76  dhfr:108  dhfr:51  dhfr:59  kelch13:561  kelch13:580\n"}
+,{"stream_name":"stdout","time":148.252903009,"data":"sample                                                                           \n"}
+,{"stream_name":"stdout","time":148.252910115,"data":"ERR15620824      30      37        66       69       61          102          107\n"}
+,{"stream_name":"stdout","time":148.252915652,"data":"ERR15620828      20      25        72       66       62           78           74\n"}
+,{"stream_name":"stdout","time":148.252920682,"data":"ERR15620862      24      30        71       75       76           85           95\n"}
+,{"stream_name":"stdout","time":148.252925532,"data":"ERR15620874      24      34        68       60       76           96          102\n"}
+,{"stream_name":"stdout","time":148.25292913,"data":"ERR15620886      34      39        73       51       50           85           80\n"}
+,{"stream_name":"stdout","time":148.252933235,"data":"ERR15630126      27      33        74       68       76           89          100\n"}
+,{"stream_name":"stdout","time":148.252938174,"data":"ERR15630236       8       9        91      108       93           13           14\n"}
+,{"stream_name":"stdout","time":148.252942635,"data":"ERR15630284      51      55        71       61       59           93           96\n"}
+,{"stream_name":"stdout","time":148.254021073,"data":"\n"}
+,{"stream_name":"stdout","time":148.254048903,"data":"reads usable at the codon (after duplicate, MAPQ, alignment and base-quality filters):\n"}
+,{"stream_name":"stdout","time":148.258402252,"data":"codon        read_length  crt:75  crt:76  dhfr:108  dhfr:51  dhfr:59  kelch13:561  kelch13:580\n"}
+,{"stream_name":"stdout","time":148.258443754,"data":"sample                                                                                        \n"}
+,{"stream_name":"stdout","time":148.258453674,"data":"ERR15620824          100      19      18        32       62        0            2           50\n"}
+,{"stream_name":"stdout","time":148.258458206,"data":"ERR15620828          100       1       0         3       61        0            0           14\n"}
+,{"stream_name":"stdout","time":148.258462055,"data":"ERR15620862          100      18       8        45       71        4            5           45\n"}
+,{"stream_name":"stdout","time":148.25846624,"data":"ERR15620874          100      18      12        52       56        1            2           64\n"}
+,{"stream_name":"stdout","time":148.258470442,"data":"ERR15620886          100      24      21        36       47        1            1           31\n"}
+,{"stream_name":"stdout","time":148.258493841,"data":"ERR15630126          151      18      20        52       48       49           55           70\n"}
+,{"stream_name":"stdout","time":148.25849818,"data":"ERR15630236          151       6       6        76       82       66            9           11\n"}
+,{"stream_name":"stdout","time":148.258502259,"data":"ERR15630284          151      40      42        54       49       48           69           76\n"}
+,{"stream_name":"stdout","time":148.263881273,"data":"\n"}
+,{"stream_name":"stdout","time":148.263948427,"data":"sample-codon pairs with fewer than 10 usable reads, and where the reads were lost:\n"}
+,{"stream_name":"stdout","time":148.265620133,"data":"     sample       codon  overlapping  duplicate  mapq_low  not_fully_aligned  base_quality_low  usable  usable_if_baseq10  median_min_baseq\n"}
+,{"stream_name":"stdout","time":148.265668628,"data":"ERR15620824 kelch13:561          102          0         0                  4                96       2                 96              17.0\n"}
+,{"stream_name":"stdout","time":148.265675585,"data":"ERR15620824     dhfr:59           61          1         0                  2                58       0                 58              16.0\n"}
+,{"stream_name":"stdout","time":148.265680633,"data":"ERR15620828 kelch13:561           78          1         0                  5                72       0                 71              15.0\n"}
+,{"stream_name":"stdout","time":148.265703915,"data":"ERR15620828      crt:75           20          0         0                  1                18       1                 19              18.0\n"}
+,{"stream_name":"stdout","time":148.265709777,"data":"ERR15620828      crt:76           25          0         1                  5                19       0                 19              18.0\n"}
+,{"stream_name":"stdout","time":148.265714927,"data":"ERR15620828     dhfr:59           62          2         0                  3                57       0                 57              16.0\n"}
+,{"stream_name":"stdout","time":148.265719891,"data":"ERR15620828    dhfr:108           72          0         0                  3                66       3                 69              18.0\n"}
+,{"stream_name":"stdout","time":148.265724297,"data":"ERR15620862 kelch13:561           85          0         0                  8                72       5                 77              17.0\n"}
+,{"stream_name":"stdout","time":148.265728711,"data":"ERR15620862      crt:76           30          0         0                  6                16       8                 24              19.0\n"}
+,{"stream_name":"stdout","time":148.265733076,"data":"ERR15620862     dhfr:59           76          2         0                  2                68       4                 72              17.0\n"}
+,{"stream_name":"stdout","time":148.265737385,"data":"ERR15620874 kelch13:561           96          0         0                  2                92       2                 93              17.0\n"}
+,{"stream_name":"stdout","time":148.265741617,"data":"ERR15620874     dhfr:59           76          0         0                  2                73       1                 74              18.0\n"}
+,{"stream_name":"stdout","time":148.265746106,"data":"ERR15620886 kelch13:561           85          2         1                  3                78       1                 77              16.0\n"}
+,{"stream_name":"stdout","time":148.26575168,"data":"ERR15620886     dhfr:59           50          0         0                  0                49       1                 49              16.0\n"}
+,{"stream_name":"stdout","time":148.265756126,"data":"ERR15630236 kelch13:561           13          0         0                  1                 3       9                 11              23.5\n"}
+,{"stream_name":"stdout","time":148.26625662,"data":"ERR15630236      crt:75            8          1         0                  0                 1       6                  7              27.0\n"}
+,{"stream_name":"stdout","time":148.266269268,"data":"ERR15630236      crt:76            9          1         0                  0                 1       6                  7              26.0\n"}
+,{"stream_name":"stdout","time":149.88127024,"data":"figures saved in /kaggle/working/project12/figures\n"}
+,{"stream_name":"stdout","time":149.934105555,"data":"== joint calling and annotation ==\n"}
+,{"stream_name":"stdout","time":177.997293645,"data":"00:00:03 Done\n"}
+,{"stream_name":"stdout","time":177.997394746,"data":"00:00:03 Done.\n"}
+,{"stream_name":"stdout","time":184.641052143,"data":"records: 161 | ERROR_CHROMOSOME_NOT_FOUND: 0 | WARNING_REF_DOES_NOT_MATCH_GENOME: 0\n"}
+,{"stream_name":"stdout","time":184.654265996,"data":"\n"}
+,{"stream_name":"stdout","time":184.654334618,"data":"coding changes per gene (known markers = the markers counted above):\n"}
+,{"stream_name":"stdout","time":184.688116503,"data":"         variants  known_markers\n"}
+,{"stream_name":"stdout","time":184.688187754,"data":"gene                            \n"}
+,{"stream_name":"stdout","time":184.68819607,"data":"crt             8              1\n"}
+,{"stream_name":"stdout","time":184.688201525,"data":"dhfr            3              3\n"}
+,{"stream_name":"stdout","time":184.68820688,"data":"kelch13         2              0\n"}
+,{"stream_name":"stdout","time":184.688211861,"data":"mdr1            7              2\n"}
+,{"stream_name":"stdout","time":184.689570923,"data":"\n"}
+,{"stream_name":"stdout","time":184.689614112,"data":"known markers in the joint call (AC = samples carrying the alternate allele, AN = samples genotyped):\n"}
+,{"stream_name":"stdout","time":184.695352456,"data":"gene    pos ref alt           effect     protein  AC AN filter\n"}
+,{"stream_name":"stdout","time":184.695405921,"data":" crt 403625   A   C missense_variant  p.Lys76Thr   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.695413622,"data":"dhfr 748239   A   T missense_variant  p.Asn51Ile   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.695418885,"data":"dhfr 748262   T   C missense_variant  p.Cys59Arg   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.695423781,"data":"dhfr 748410   G   A missense_variant p.Ser108Asn   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.695428811,"data":"mdr1 958145   A   T missense_variant  p.Asn86Tyr   3  8   PASS\n"}
+,{"stream_name":"stdout","time":184.695433841,"data":"mdr1 958440   A   T missense_variant p.Tyr184Phe   6  7   PASS\n"}
+,{"stream_name":"stdout","time":184.696584743,"data":"\n"}
+,{"stream_name":"stdout","time":184.696736492,"data":"other non-synonymous changes with the highest AC (all in results/locus_variants.tsv):\n"}
+,{"stream_name":"stdout","time":184.703684048,"data":"   gene     pos        ref       alt                      effect            protein  AC AN filter\n"}
+,{"stream_name":"stdout","time":184.703737593,"data":"    crt  403618          A        AT          frameshift_variant          p.Met74fs   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703745532,"data":"    crt  403622         AT         A          frameshift_variant          p.Asn75fs   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703751483,"data":"    crt  404836          C         G            missense_variant        p.Gln271Glu   8  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703757388,"data":"    crt  404407          G         T            missense_variant        p.Ala220Ser   7  7   PASS\n"}
+,{"stream_name":"stdout","time":184.703914542,"data":"    crt  405838          G         T            missense_variant        p.Arg371Ile   6  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703923497,"data":"kelch13 1726432          T         G            missense_variant        p.Lys189Thr   5  7   PASS\n"}
+,{"stream_name":"stdout","time":184.703928004,"data":"    crt  405600          T         C            missense_variant        p.Ile356Thr   4  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703933091,"data":"   mdr1  959837          G         A            missense_variant        p.Asp650Asn   3  7   PASS\n"}
+,{"stream_name":"stdout","time":184.703937623,"data":"   mdr1  959843          A       G,*            missense_variant        p.Asn652Asp   3  7   PASS\n"}
+,{"stream_name":"stdout","time":184.70394214,"data":"    crt  406056          A         G            missense_variant        p.Asn395Asp   1  8   PASS\n"}
+,{"stream_name":"stdout","time":184.703946625,"data":"   mdr1  959813          G         A            missense_variant        p.Asp642Asn   1  7   PASS\n"}
+,{"stream_name":"stdout","time":184.703951293,"data":"kelch13 1726234          C         T            missense_variant        p.Arg255Lys   1  7   PASS\n"}
+,{"stream_name":"stdout","time":184.703956038,"data":"   mdr1  959840 GATAATAATA G,GATAATA disruptive_inframe_deletion p.Asn659_Asn661del   1  7   PASS\n"}
+,{"stream_name":"stdout","time":184.70403703,"data":"   mdr1  960702          T         A            missense_variant        p.Phe938Tyr   1  7   PASS\n"}
+,{"stream_name":"stdout","time":184.99292317,"data":"IGV bundle: /kaggle/working/project12/results/igv_bundle\n"}
+,{"stream_name":"stdout","time":185.002926892,"data":"29M\t/kaggle/working/project12/results/igv_bundle\n"}
+,{"stream_name":"stdout","time":185.004142404,"data":"first locations:\n"}
+,{"stream_name":"stdout","time":185.005301199,"data":"gene\tmarker\tlocation\n"}
+,{"stream_name":"stdout","time":185.005336458,"data":"kelch13\tP441L\tPf3D7_13_v3:1725656-1725696\n"}
+,{"stream_name":"stdout","time":185.005343891,"data":"kelch13\tF446I\tPf3D7_13_v3:1725641-1725681\n"}
+,{"stream_name":"stdout","time":185.005349219,"data":"kelch13\tG449A\tPf3D7_13_v3:1725632-1725672\n"}
+,{"stream_name":"stdout","time":185.005353456,"data":"kelch13\tN458Y\tPf3D7_13_v3:1725605-1725645\n"}
+,{"stream_name":"stdout","time":185.005358538,"data":"kelch13\tC469Y\tPf3D7_13_v3:1725572-1725612\n"}
+,{"stream_name":"stdout","time":188.721837716,"data":"\n"}
+,{"stream_name":"stdout","time":188.721891234,"data":"elapsed minutes: 2.9\n"}
+,{"stream_name":"stdout","time":195.484189103,"data":"./data/loci.bed\n"}
+,{"stream_name":"stdout","time":195.484304218,"data":"./data/markers.tsv\n"}
+,{"stream_name":"stdout","time":195.484311907,"data":"./data/ref.dict\n"}
+,{"stream_name":"stdout","time":195.484316547,"data":"./data/ref.fa\n"}
+,{"stream_name":"stdout","time":195.484321126,"data":"./data/ref.fa.fai\n"}
+,{"stream_name":"stdout","time":195.484326079,"data":"./data/ref.gff\n"}
+,{"stream_name":"stdout","time":195.484329784,"data":"./data/runs_todo.tsv\n"}
+,{"stream_name":"stdout","time":195.48433434,"data":"./data/runs.tsv\n"}
+,{"stream_name":"stdout","time":195.484338896,"data":"./figures/key_marker_heatmap.png\n"}
+,{"stream_name":"stdout","time":195.484343093,"data":"./figures/marker_prevalence.png\n"}
+,{"stream_name":"stdout","time":195.48434697,"data":"./logs/bwa_ERR15620824.log\n"}
+,{"stream_name":"stdout","time":195.484350681,"data":"./logs/bwa_ERR15620828.log\n"}
+,{"stream_name":"stdout","time":195.484354388,"data":"./logs/bwa_ERR15620862.log\n"}
+,{"stream_name":"stdout","time":195.484377057,"data":"./logs/bwa_ERR15620874.log\n"}
+,{"stream_name":"stdout","time":195.484381539,"data":"./logs/bwa_ERR15620886.log\n"}
+,{"stream_name":"stdout","time":195.484385466,"data":"./logs/bwa_ERR15630126.log\n"}
+,{"stream_name":"stdout","time":195.48438923,"data":"./logs/bwa_ERR15630236.log\n"}
+,{"stream_name":"stdout","time":195.48439319,"data":"./logs/bwa_ERR15630284.log\n"}
+,{"stream_name":"stdout","time":195.484396787,"data":"./logs/combine.log\n"}
+,{"stream_name":"stdout","time":195.484400775,"data":"./logs/dup_ERR15620824.txt\n"}
+,{"stream_name":"stdout","time":195.484404909,"data":"./logs/dup_ERR15620828.txt\n"}
+,{"stream_name":"stdout","time":195.484408992,"data":"./logs/dup_ERR15620862.txt\n"}
+,{"stream_name":"stdout","time":195.484413341,"data":"./logs/dup_ERR15620874.txt\n"}
+,{"stream_name":"stdout","time":195.484417138,"data":"./logs/dup_ERR15620886.txt\n"}
+,{"stream_name":"stdout","time":195.484420711,"data":"./logs/dup_ERR15630126.txt\n"}
+,{"stream_name":"stdout","time":195.484424421,"data":"./logs/dup_ERR15630236.txt\n"}
+,{"stream_name":"stdout","time":195.484428644,"data":"./logs/dup_ERR15630284.txt\n"}
+,{"stream_name":"stdout","time":195.48443271,"data":"./logs/filter.log\n"}
+,{"stream_name":"stdout","time":195.484436441,"data":"./logs/flagstat_ERR15620824.txt\n"}
+,{"stream_name":"stdout","time":195.484440462,"data":"./logs/flagstat_ERR15620828.txt\n"}
+,{"stream_name":"stdout","time":195.484444673,"data":"./logs/flagstat_ERR15620862.txt\n"}
+,{"stream_name":"stdout","time":195.484448858,"data":"./logs/flagstat_ERR15620874.txt\n"}
+,{"stream_name":"stdout","time":195.484452987,"data":"./logs/flagstat_ERR15620886.txt\n"}
+,{"stream_name":"stdout","time":195.484457085,"data":"./logs/flagstat_ERR15630126.txt\n"}
+,{"stream_name":"stdout","time":195.484461106,"data":"./logs/flagstat_ERR15630236.txt\n"}
+,{"stream_name":"stdout","time":195.484465626,"data":"./logs/flagstat_ERR15630284.txt\n"}
+,{"stream_name":"stdout","time":195.484469711,"data":"./logs/genotype.log\n"}
+,{"stream_name":"stdout","time":195.484473789,"data":"./logs/hc_ERR15620824.log\n"}
+,{"stream_name":"stdout","time":195.484478008,"data":"./logs/hc_ERR15620828.log\n"}
+,{"stream_name":"stdout","time":195.484481694,"data":"./logs/hc_ERR15620862.log\n"}
+,{"stream_name":"stdout","time":195.484485612,"data":"./logs/hc_ERR15620874.log\n"}
+,{"stream_name":"stdout","time":195.484489656,"data":"./logs/hc_ERR15620886.log\n"}
+,{"stream_name":"stdout","time":195.484493669,"data":"./logs/hc_ERR15630126.log\n"}
+,{"stream_name":"stdout","time":195.484497791,"data":"./logs/hc_ERR15630236.log\n"}
+,{"stream_name":"stdout","time":195.484501833,"data":"./logs/hc_ERR15630284.log\n"}
+,{"stream_name":"stdout","time":195.484505952,"data":"./logs/md_ERR15620824.log\n"}
+,{"stream_name":"stdout","time":195.484509944,"data":"./logs/md_ERR15620828.log\n"}
+,{"stream_name":"stdout","time":195.484514024,"data":"./logs/md_ERR15620862.log\n"}
+,{"stream_name":"stdout","time":195.48451807,"data":"./logs/md_ERR15620874.log\n"}
+,{"stream_name":"stdout","time":195.484522137,"data":"./logs/md_ERR15620886.log\n"}
+,{"stream_name":"stdout","time":195.484526169,"data":"./logs/md_ERR15630126.log\n"}
+,{"stream_name":"stdout","time":195.484530201,"data":"./logs/md_ERR15630236.log\n"}
+,{"stream_name":"stdout","time":195.484534181,"data":"./logs/md_ERR15630284.log\n"}
+,{"stream_name":"stdout","time":195.484538395,"data":"./logs/run_all.log\n"}
+,{"stream_name":"stdout","time":195.484542473,"data":"./logs/snpeff.log\n"}
+,{"stream_name":"stdout","time":195.484552101,"data":"./project12_igv_bundle.tgz\n"}
+,{"stream_name":"stdout","time":195.484556982,"data":"./README_project12.md\n"}
+,{"stream_name":"stdout","time":195.484562215,"data":"./results/cohort.ann.renamed.vcf\n"}
+,{"stream_name":"stdout","time":195.484566443,"data":"./results/cohort.ann.vcf\n"}
+,{"stream_name":"stdout","time":195.484570758,"data":"./results/cohort.filtered.vcf.gz\n"}
+,{"stream_name":"stdout","time":195.485519394,"data":"\n"}
+,{"stream_name":"stdout","time":195.485545974,"data":"README draft: /kaggle/working/project12/README_project12.md\n"}
+,{"stream_name":"stderr","time":200.375705516,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":200.375906395,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":200.746752127,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":200.746908717,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":202.098504549,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":202.277060682,"data":"[NbConvertApp] Writing 218242 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":206.122369109,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":207.157055138,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":207.157130162,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":207.157896301,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":207.158042154,"data":"[NbConvertApp] Writing 507429 bytes to __results__.html\n"}
+]
